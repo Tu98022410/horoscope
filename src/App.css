@@ -1,0 +1,274 @@
+
+.bg {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./photo/Background.png');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.left{
+  width: 351px;
+  height: 100%;
+}
+.box{
+  width: 80%;
+  height: 8%;
+  margin-top: 1% ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.nu{
+  width: 114px;
+  height: 56px;
+  border: 1.5px solid rgba(148, 153, 195, 0.5);
+  border-radius: 8px;
+  background-color: #1A1C4803;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+
+  text-align: center;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+  
+}
+.ac{
+  width: 134px;
+  height: 72px;
+  background-color: nune ;
+  box-shadow: 0px 2px 56px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  border-color: #FFFFFF;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  
+  text-align: center;
+  text-transform: uppercase;
+  
+  color: #1A1C48;
+}
+.bt{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.con{
+width: 24px;
+height: 24px;
+}
+.con1{
+width: 90%;
+display: flex;
+flex-direction: column;
+margin-left: 2%;
+}
+.bigText{
+
+font-style: normal;
+font-size: 19px;
+line-height: 100%;
+/* identical to box height, or 14px */
+
+text-transform: uppercase;
+
+color: #9499C3;
+}
+.smallText{
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 100%;
+color: rgba;
+
+color: rgba(148, 153, 195, 0.5);
+}
+.center{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.con2{
+width: 95%;
+height: 40%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.hor{
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 100%;
+/* identical to box height, or 48px */
+color: #9499C3;
+
+}
+.rl{
+  width: 100%;
+  height: 100%;    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Rbox{
+  width: 200px;
+  height: 200px;
+  margin-left: 1%;
+  
+  background: rgba(255, 255, 255, 0.02);
+  opacity: 0.7;
+  border-radius: 10px;
+}
+.border{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px dashed #FFFFFF;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.t{
+font-style: normal;
+font-weight: normal;
+
+color: white;
+}
+.tex{
+  width: 50%;
+  height: 60%;
+font-style: normal;
+font-weight: 300;
+font-size: 48px;
+line-height: 100%;
+/* or 48px */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.b{
+  width: 100%;
+  height: 68%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('./photo/SpaceX 3D Model Render.png');
+  object-fit: scale-down;;
+}
+.ud{
+  width: 100%;
+  height: 14%;
+  background-image: url('./photo/Shadow.png');
+  object-fit: cover;
+}
+.lClick{
+  width: 96px;
+  height: 24px;
+  background-image: url('./photo/Arrow.png');
+}
+.con3{
+  display: flex;
+  justify-content: center;
+}
+.right{
+  width: 12%;
+  height: 100%;
+}
+.center2{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vsClick{
+  width: 96px;
+  height: 23px;
+  background-image: url('./photo/vsAroow.png');
+}
+.con5{
+
+  width: 95%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.con6{
+  width: 95%;
+  height: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sel{
+  width: 100%;
+  height: 100%;
+}
+.textl{
+  margin-top:4% ;
+width: 10%;
+height: 17%;
+font-style: normal;
+font-size: 36px;
+line-height: 100%;
+/* identical to box height, or 36px */
+
+text-transform: uppercase;
+
+color: #9499C3;
+display: flex;
+    flex-direction: column;
+}.til{
+
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 100%;
+/* identical to box height, or 28px */
+
+text-align: center;
+
+}
+.select{
+
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+
+/* Black */
+
+color: #000000;
+
+
+/* Inside Auto Layout */
+
+}
